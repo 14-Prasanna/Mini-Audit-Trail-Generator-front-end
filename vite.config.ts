@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "audit-tool-main",   // ⬅️ Mandatory for GitHub Pages routing
+  base: "Mini-Audit-Trail-Generator-front-end",   // ⬅️ Mandatory for GitHub Pages routing
   optimizeDeps: {
     exclude: ["lucide-react"],
   }
