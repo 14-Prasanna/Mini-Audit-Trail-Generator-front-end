@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://mini-audit-trail-generator-backend-ob5v2p20l.vercel.app/', // Change to your backend URL in production
+  baseURL: 'https://mini-audit-trail-generator-backend.vercel.app/', // Change to your backend URL in production
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
